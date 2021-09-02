@@ -1,6 +1,6 @@
 variable "aws_region" {
     description = "The AWS Region for ECR."
-    default = "us-east-1"
+    default = "us-west-2"
 }
 
 variable "local_runner_repo_uri" {

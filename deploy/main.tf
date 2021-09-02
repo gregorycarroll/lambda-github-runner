@@ -10,7 +10,7 @@ data "aws_caller_identity" "current" {}
 
 variable "aws_region" {
     description = "AWS Region to deploy in"
-    default = "us-east-1"
+    default = "us-west-2"
 }
 
 variable "github_token" {
